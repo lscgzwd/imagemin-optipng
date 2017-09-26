@@ -1,6 +1,6 @@
 {
   "name": "china-imagemin-optipng",
-  "version": "5.2.1",
+  "version": "5.2.2",
   "description": "OptiPNG imagemin plugin, 同步官方代码，解决国内下载jpegtran-bin,optipng-bin依赖的源码慢的问题",
   "license": "MIT",
   "repository": {
@@ -45,7 +45,7 @@
   "dependencies": {
     "exec-buffer": "^3.0.0",
     "is-png": "^1.0.0",
-    "china-optipng-bin": "=4.0.0"
+    "china-optipng-bin": "=4.0.1"
   },
   "devDependencies": {
     "ava": "*",
