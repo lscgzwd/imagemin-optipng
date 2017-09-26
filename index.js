@@ -1,7 +1,7 @@
 'use strict';
 const execBuffer = require('exec-buffer');
 const isPng = require('is-png');
-const optipng = require('optipng-bin');
+const optipng = require('china-optipng-bin');
 
 module.exports = opts => buf => {
 	opts = Object.assign({

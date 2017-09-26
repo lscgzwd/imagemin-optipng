@@ -1,9 +1,12 @@
 {
-  "name": "imagemin-optipng",
+  "name": "china-imagemin-optipng",
   "version": "5.2.1",
-  "description": "OptiPNG imagemin plugin",
+  "description": "OptiPNG imagemin plugin, 同步官方代码，解决国内下载jpegtran-bin,optipng-bin依赖的源码慢的问题",
   "license": "MIT",
-  "repository": "imagemin/imagemin-optipng",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lscgzwd/imagemin-optipng.git"
+  },
   "author": {
     "name": "Kevin Mårtensson",
     "email": "kevinmartensson@gmail.com",
@@ -42,7 +45,7 @@
   "dependencies": {
     "exec-buffer": "^3.0.0",
     "is-png": "^1.0.0",
-    "optipng-bin": "^4.0.0"
+    "china-optipng-bin": "=4.0.0"
   },
   "devDependencies": {
     "ava": "*",
